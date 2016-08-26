@@ -1,4 +1,4 @@
-# hw0, Minutes of Action. Due: soon.
+# hw0, Minutes of Action. Due: soon (5 days after your linux accounts are available to you).
 
 You will create a C++ program that will count the total of minutes, hours, and days mentioned inside of a plain-text file.
 
@@ -11,15 +11,17 @@ Lines in the input file that start with the symbol `#` should be considered comm
 
 Example 1:
 
-    #person of interest travels 20 minutes each day.
+    A person of interest travels 20 minutes each day.
     Meredith travels 1 hour by train to visit Derek. However, Derek can visit her in one minute.
+    #this line is a comment because it starts with #
+    #for example, this comment line contains 1000 minutes but they do not get added anywhere
     Cristina does 4 minutes of yoga on her lunch break; she's done that in the last 3 weeks.
 
-Each line that is not a comment will be process to find references of minutes, hours, or days.
-Such items will be first a number and then one of these words: minute, minutes, hour, hours, day, days.
+Each line that is not a comment will be processed to find references of minutes, hours, or days.
+Such items will be appear first as a number and then one of these words: minute, minutes, hour, hours, day, days.
 There may be empty lines in the input file.
-The words and numbers may be separated by spaces, commas, period, new-line character, and parenthesis. Words and numbers will be separated by at least one non-letter or non-digit symbol.
-You can assume that a word will be at most 30 characters long, and numbers will have maximum of 10 digits.
+The words and numbers may be separated by spaces, commas, period, new-line character, parenthesis, etc. Words and numbers will be separated by at least one non-letter or non-digit symbol. A word is one or more consecutive letters until a non-letter is next.
+You can assume that a word will be at most 30 characters long (always letters), and numbers will have maximum of 10 digits.
 
 ## Program specification
 
@@ -31,15 +33,14 @@ The parameter `input` specifies the name of the input file.
 
 Example of program calls:
 
-`uuday "input=gray.txt"`
+`uhday "input=gray.txt"`
 
 ## Output
 
 Your program will output to the console (such as via cout, or printf) with the results of counting, independently, the minutes, hours, and days metioned in the file.
-The first column is the time, the second is the name of the person, the third is the duration, and the fourth is the status.
 Your program must follow the output format exactly to facilitate automated grading (and to avoid failing test cases due to things such as output of an empty line at the end).
 
-Output for the input example.  (output is partial, just for illustration purposes).
+Output for the input example.
 
     Minutes:24
     Hours:1
@@ -48,6 +49,7 @@ Output for the input example.  (output is partial, just for illustration purpose
 ## Assumptions
 
 * The input file can fit in main maimory (not larger than 10kb).
+* The words "Minutes", "Hours", "Days" in the output will be exactly like that. They are expected to always be in plural.
 
 ## Requirements
 
