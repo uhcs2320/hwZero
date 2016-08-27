@@ -1,5 +1,7 @@
 # hw0, Minutes of Action. Due: soon (5 days after your linux accounts are available to you).
 
+(For example, if you are notified on class on the 10th of the month that the linux accounts are ready and given information about how to login, then the assignment is due on the 15th).
+
 You will create a C++ program that will count the total of minutes, hours, and days mentioned inside of a plain-text file.
 
 ## Input 
@@ -15,13 +17,14 @@ Example 1:
     Meredith travels 1 hour by train to visit Derek. However, Derek can visit her in one minute.
     #this line is a comment because it starts with #
     #for example, this comment line contains 1000 minutes but they do not get added anywhere
-    Cristina does 4 minutes of yoga on her lunch break; she's done that in the last 3 weeks.
+    Cristina does 4 minutes of yoga on her lunch break; she's done that in the last 3 weeks. 
+    She can drink 3 minutemaid bottles a day.
 
 Each line that is not a comment will be processed to find references of minutes, hours, or days.
 Such items will be appear first as a number and then one of these words: minute, minutes, hour, hours, day, days.
 There may be empty lines in the input file.
 The words and numbers may be separated by spaces, commas, period, new-line character, parenthesis, etc. Words and numbers will be separated by at least one non-letter or non-digit symbol. A word is one or more consecutive letters until a non-letter is next.
-You can assume that a word will be at most 30 characters long (always letters), and numbers will have maximum of 10 digits.
+You can assume that a word will be at most 30 characters long (always letters). Numbers are always digits (0,1,2,...,9). Numbers will have maximum of 10 digits. There may be things that look like a number but are not, such as: 1024K.
 
 ## Program specification
 
