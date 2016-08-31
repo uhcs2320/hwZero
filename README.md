@@ -1,6 +1,7 @@
 # hw0, Minutes of Action. Due: soon (5 days after your linux accounts are available to you).
 
 (For example, if you are notified on class on the 10th of the month that the linux accounts are ready and given information about how to login, then the assignment is due on the 15th).
+--update: Tuesday passed and did not get information about the accounts (I'll follow up about it with the person that creates the accounts on Wednesday)
 
 You will create a C++ program that will count the total of minutes, hours, and days mentioned inside of a plain-text file.
 
@@ -38,6 +39,12 @@ Example of program calls:
 
 `uhday "input=gray.txt"`
 
+or, `./uhday "input=gray.txt"`
+
+The source code will be compiled as follows:
+
+`g++ -std=c++11 -o uhday -I ./ *.cpp`
+
 ## Output
 
 Your program will output to the console (such as via cout, or printf) with the results of counting, independently, the minutes, hours, and days metioned in the file.
@@ -53,6 +60,7 @@ Output for the input example.
 
 * The input file can fit in main maimory (not larger than 10kb).
 * The words "Minutes", "Hours", "Days" in the output will be exactly like that. They are expected to always be in plural.
+* You can assume that it is safe to treat each line independently. There will not be test cases such as line 1 ending in a number, and line 2 starting with: day. 
 
 ## Requirements
 
