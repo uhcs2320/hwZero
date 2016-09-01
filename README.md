@@ -1,7 +1,8 @@
 # hw0, Minutes of Action. Due: soon (5 days after your linux accounts are available to you).
 
 (For example, if you are notified on class on the 10th of the month that the linux accounts are ready and given information about how to login, then the assignment is due on the 15th).
---update: Tuesday passed and did not get information about the accounts (I'll follow up about it with the person that creates the accounts on Wednesday)
+
+--update: Accounts information will be given Today (Thursday 9/1) during class.
 
 You will create a C++ program that will count the total of minutes, hours, and days mentioned inside of a plain-text file.
 
