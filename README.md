@@ -1,8 +1,6 @@
-# hw0, Minutes of Action. Due: soon (5 days after your linux accounts are available to you).
+# hw0, Minutes of Action. Due: Thursday September 8th.
 
-(For example, if you are notified on class on the 10th of the month that the linux accounts are ready and given information about how to login, then the assignment is due on the 15th).
-
---update: Accounts information will be given Today (Thursday 9/1) during class.
+## Update: Accounts information was given during class on Thursday 9/1. If you missed it, then ask me (Aleman) via email.
 
 You will create a C++ program that will count the total of minutes, hours, and days mentioned inside of a plain-text file.
 
@@ -62,6 +60,18 @@ Output for the input example.
 * The input file can fit in main maimory (not larger than 10kb).
 * The words "Minutes", "Hours", "Days" in the output will be exactly like that. They are expected to always be in plural.
 * You can assume that it is safe to treat each line independently. There will not be test cases such as line 1 ending in a number, and line 2 starting with: day. 
+* Examples of valid numbers due to the character next to them being a separator: 
+
+    `(20 minutes)`
+
+    `They were sleepy.5 hours later they woke up.`
+
+* Examples of numbers that are not valid, that is, your code is not expected to count them.
+
+    `The student reads 40K minutes every day.`
+
+    `It took 12.67 minutes to form an opinion.`
+
 
 ## Requirements
 
