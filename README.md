@@ -23,7 +23,7 @@ Example 1:
 Each line that is not a comment will be processed to find references of minutes, hours, or days.
 Such items will be appear first as a number and then one of these words: minute, minutes, hour, hours, day, days.
 There may be empty lines in the input file.
-The words and numbers may be separated by spaces, commas, period, new-line character, parenthesis, etc. Words and numbers will be separated by at least one non-letter or non-digit symbol. A word is one or more consecutive letters until a non-letter is next.
+The words and numbers may be separated by spaces, commas, parenthesis, semicolon. Words and numbers will be separated by at least one non-letter or non-digit symbol. A word is one or more consecutive letters until a non-letter is next.
 You can assume that a word will be at most 30 characters long (always letters). Numbers are always digits (0,1,2,...,9). Numbers will have maximum of 10 digits. There may be things that look like a number but are not, such as: 1024K.
 
 ## Program specification
@@ -64,7 +64,7 @@ Output for the input example.
 
     `(20 minutes)`
 
-    `They were sleepy.5 hours later they woke up.`
+    `They were sleepy;5 hours later they woke up.`
 
 * Examples of numbers that are not valid, that is, your code is not expected to count them.
 
@@ -72,6 +72,7 @@ Output for the input example.
 
     `It took 12.67 minutes to form an opinion.`
 
+* The obvious separator is space character. You can assume that these are the separators that you must consider: space, comma, semicolon, left parenthesis, and right parenthesis. That is, any of the last 4 separators beforementioned is basically equivalent to a space character. In the example shown above, `12.67` is simply a number that is not valid (numbers are all digits). 
 
 ## Requirements
 
