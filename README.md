@@ -14,7 +14,7 @@ Lines in the input file that start with the symbol `#` should be considered comm
 Example 1:
 
     A person of interest travels 20 minutes each day.
-    Meredith travels 1 hour by train to visit Derek. However, Derek can visit her in one minute.
+    Meredith travels 1 hour by train to visit Derek. However, Derek can visit her in one minute
     #this line is a comment because it starts with #
     #for example, this comment line contains 1000 minutes but they do not get added anywhere
     Cristina does 4 minutes of yoga on her lunch break; she's done that in the last 3 weeks. 
