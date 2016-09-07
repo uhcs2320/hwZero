@@ -1,6 +1,6 @@
 # hw0, Minutes of Action. Due: Thursday September 8th at 10:00 p.m.
 
-## Update: Accounts information was given during class on Thursday 9/1. If you missed it, then ask me (Aleman) via email.
+## Update: Example of ["Tokenize"](http://stackoverflow.com/documentation/c%2b%2b/488/stdstring/2148/tokenize#t=201609071057161048622) to 'break' a string into pieces using one or more separators (also known as 'delimiters', such as space character, and comma)
 
 You will create a C++ program that will count the total of minutes, hours, and days mentioned inside of a plain-text file.
 
