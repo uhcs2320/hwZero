@@ -1,4 +1,4 @@
-# hw0, Minutes of Action. Due: Thursday September 8th.
+# hw0, Minutes of Action. Due: Thursday September 8th at 10:00 p.m.
 
 ## Update: Accounts information was given during class on Thursday 9/1. If you missed it, then ask me (Aleman) via email.
 
