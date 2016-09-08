@@ -57,7 +57,7 @@ Output for the input example.
 
 ## Assumptions
 
-* The input file can fit in main maimory (not larger than 10kb).
+* The input file can fit in main memory (not larger than 10kb).
 * The words "Minutes", "Hours", "Days" in the output will be exactly like that. They are expected to always be in plural.
 * You can assume that it is safe to treat each line independently. There will not be test cases such as line 1 ending in a number, and line 2 starting with: day. 
 * Examples of valid numbers due to the character next to them being a separator: 
@@ -80,3 +80,4 @@ Output for the input example.
 * Place your codes in a folder named: `hw0` (Failure to do so will cause your program to have a zero grade due to inability for doing automated grading).
 * Your program should not produce any unexpected output when it is doing intermediate calculations because doing so will interfere with automated grading and some test cases will fail.
 * You can not assume a maximum number of lines in the input file.
+* You can assume a maximum number of 99 words per line.
